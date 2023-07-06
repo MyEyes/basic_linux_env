@@ -7,4 +7,5 @@ This basic environment sets up a basic initramfs with a host directory mounted i
 # Steps
 1. Init git submodules and build initramfs
 2. Copy your bzImage kernel image into the root directory (Make sure 9p is enabled in the kernel)
+3. Create ./host directory that'll be mounted in guest at /mnt/host
 3. Run ./run_qemu.sh
